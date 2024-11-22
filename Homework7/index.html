@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework7</title>
+    <link href="styles/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>My Arts & Crafts Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#submit">Submit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <section id="home">
+            <h2>Welcome to My Arts & Crafts Blog</h2>
+            <p>
+                Are you passionate about creating something unique and beautiful with your own hands? You’ve come to the
+                right place!
+                Here, we celebrate creativity, share ideas, and inspire one another to bring projects to life.
+            </p>
+            <p>
+                Whether you’re a beginner or a seasoned crafter, you’ll find tutorials, tips, and tricks to elevate your
+                skills and
+                explore new techniques. From intricate DIY decorations to simple, fun crafts, there’s something for
+                everyone.
+            </p>
+            <h3>What You’ll Find Here:</h3>
+            <ul>
+                <li><strong>Step-by-Step Tutorials:</strong> Easy-to-follow guides for various projects.</li>
+                <li><strong>Creative Inspiration:</strong> Ideas to spark your imagination and get you crafting.</li>
+                <li><strong>Community Sharing:</strong> Showcase your creations and get feedback from fellow
+                    enthusiasts.</li>
+            </ul>
+            <p>
+                Dive in, get inspired, and let’s make something amazing together. Don’t forget to check out our latest
+                <a href="#projects">projects</a> and share your own ideas in our <a href="#submit">Submit Your Idea</a>
+                section!
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-text">
+                        <h3>How to Make a Paper Flower</h3>
+                        <p>Create beautiful paper flowers with this step-by-step guide. You'll need colored paper,
+                            scissors, and glue...</p>
+                    </div>
+                    <div class="card-image">
+                        <img src="assets/paper-flower.webp" alt="Paper Flower">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/stones.jpg" alt="Painted Rocks">
+                    </div>
+                    <div class="card-text">
+                        <h3>DIY Painted Rocks</h3>
+                        <p>Transform ordinary rocks into colorful works of art. We'll show you different painting
+                            techniques and design ideas...</p>
+                    </div>
+                </div>
+          
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Have questions or want to share your creations? Reach out to me at <a
+                    href="mailto:artsandcraftblog@gmail.com">artsandcraftblog@gmail.com</a>.</p>
+        </section>
+
+        <section id="submit">
+            <h2>Submit Your Idea</h2>
+            <p>Got a unique project idea? Share it with us!</p>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                <label for="idea">Your Idea:</label><br>
+                <textarea id="idea" name="idea" rows="5" placeholder="Describe your project idea..."
+                    required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Arts & Crafts Blog. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
